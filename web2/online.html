@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PrimeArea - Online Shopping</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav>
+        <h2>PrimeArea 🛍️</h2>
+
+        <div>
+            <a href="#home">Home</a>
+            <a href="#categories">Categories</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <input type="text" class="search"
+               placeholder="Search products...">
+    </nav>
+
+    <section class="banner" id="home">
+        <h1>Big Shopping Festival!</h1>
+        <p>Discover amazing products with discounts up to 50% OFF.</p>
+        <button onclick="location.href='#products'">
+            Shop Now
+        </button>
+    </section>
+
+    <section class="categories" id="categories">
+        <h2 class="heading">Shop by Category</h2>
+
+        <button onclick="location.href='#homeproducts'">
+           Home
+        </button>
+
+        <button onclick="location.href='#fashion'">
+            Fashion
+        </button>
+
+        <button onclick="location.href='#accessories'">
+            Accessories
+        </button>
+
+        <button onclick="location.href='#electronics'">
+             Electronics
+        </button>
+    </section>
+
+    <h2 class="heading" id="products">Featured Products</h2>
+
+    <section class="products">
+
+        <div class="product" id="electronics">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCqibzmmhkMPpc9Xk2brZf3gklPs2satqkPaEkhTWMvg&s=10"
+                 alt="Ear Buds">
+
+            <h3>Ear Buds</h3>
+            <p class="description">
+                High-quality sound with comfortable design.
+            </p>
+
+            <p class="rating">★★★★★ (4.8)</p>
+            <p class="price">₹1,499
+                <span class="old-price">₹2,999</span>
+            </p>
+            <p>50% OFF</p>
+
+            <button onclick="alert('Ear Buds added to cart!')">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="product" id="fashion">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqEP1b2InCtvjIZDLV7VoDwq8nfcjwSyI7EwDsUz_cew&s=10"
+             alt="Sneakers">
+
+            <h3>Sneakers</h3>
+            <p class="description">
+                Comfortable and stylish sneakers for daily use.
+            </p>
+
+            <p class="rating">★★★★☆ (4.5)</p>
+            <p class="price">₹499
+                <span class="old-price">₹999</span>
+            </p>
+            <p>50% OFF</p>
+
+            <button onclick="alert('Sneakers added to cart!')">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="product" id="accessories">
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=500&q=80"
+                 alt="Smart Watch">
+
+            <h3>Smart Watch</h3>
+            <p class="description">
+                Track your fitness and daily activities.
+            </p>
+
+            <p class="rating">★★★★★ (4.7)</p>
+            <p class="price">₹1,999
+                <span class="old-price">₹3,999</span>
+            </p>
+            <p>50% OFF</p>
+
+            <button onclick="alert('Smart Watch added to cart!')">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="product" id="electronics">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPS6o7wa-chkEpS-q8Tlu4nKvRJBo57lho1JG-KU29wQ&s=10"
+                 alt="laptop">
+
+            <h3>laptop</h3>
+            <p class="description">
+                Powerful and portable laptop for all your needs.
+            </p>
+
+            <p class="rating">★★★★☆ (4.3)</p>
+            <p class="price">₹70,000
+                <span class="old-price">₹95,000</span>
+            </p>
+            <p>50% OFF</p>
+
+            <button onclick="alert('laptop added to cart!')">
+                Add to Cart
+            </button>
+        </div>
+        <div>
+
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h3>PrimeArea Online Store</h3>
+        <p>Contact: support@primearea.example</p>
+        <p>© 2026 PrimeArea. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
